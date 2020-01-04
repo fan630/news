@@ -2,7 +2,7 @@
 Created by javaScript
 
 ## 連結
-[News]()
+[News](https://fan630.github.io/news/)
 
 ## 介紹
 透過newsAPI 串接台灣新聞, [API](https://newsapi.org/s/taiwan-news-api)來源
@@ -22,3 +22,6 @@ Created by javaScript
 ## 待修正
 - 搜尋即時顯示
 - 商業tab出現亂碼字樣
+
+
+
