@@ -144,6 +144,11 @@
   color: black;
 }
 
+#app footer .box a.shareBtn {
+  display: block;
+  background-repeat: no-repeat;
+}
+
 @media screen and (max-width: 770px) {
   .col-8 {
     text-align: left;

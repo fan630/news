@@ -115,6 +115,12 @@
                 color:black;
             }
         }
+        .box{
+            a.shareBtn{
+                display: block;
+                background-repeat: no-repeat;
+            }
+        }
     }
 }
 
@@ -173,6 +179,3 @@
         align-items: center;
     }
 }
-
-
-

@@ -401,6 +401,18 @@ const url = `https://newsapi.org/v2/top-headlines?country=tw&category=health&api
         containerTab.classList.add('active')
 
         window.location.hash = ''
+    }
 
+    if (device.desktop()) {
+        document.getElementById("Linemobile").style.display = "none";
+    } else {
+        document.getElementById("LinePc").style.display = "none";
+    }
+
+    document.getElementById("LinePc").onclick = function () {
+        window.open('https://lineit.line.me/share/ui?url=' + encodeURIComponent("https://fan630.github.io/news"), "_blank", "toolbar=yes,location=yes,directories=no,status=no, menubar=yes,scrollbars=yes,resizable=no, copyhistory=yes,width=600,height=400")
+    }
+    document.getElementById("Linemobile").onclick = function () {
+        window.open('line://msg/text/' + encodeURIComponent("https://fan630.github.io/news"), "_blank", "toolbar=yes,location=yes,directories=no,status=no, menubar=yes,scrollbars=yes,resizable=no, copyhistory=yes,width=600,height=400")
     }
 }())
